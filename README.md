@@ -22,7 +22,7 @@ cd colorset-generator
     ```
 
 2. Follow the prompts to input the parameters:
-   - Maximum number of words for colors.
+   - Maximum number of words for colors (e.g. 1 to include "green", but to exclude "dark green").
    - Output format \(csv, txt, json\).
    - Color format \(hex, rgb\).
 
@@ -30,6 +30,6 @@ cd colorset-generator
 
 ## Known Issues
 
-This is a tool I only built because I needed it one single time.
+This tool has been built for a single, specific use-case.
 - The script requires specific input, and any deviation may result in unexpected behavior.
 - Limited testing has been performed, and there may be undiscovered issues.
